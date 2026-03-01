@@ -3,7 +3,7 @@
 import React from 'react';
 import { Gift, Sparkles } from 'lucide-react';
 
-const CRUMBL_URL = "https://gloffers.org/aff_c?offer_id=715&aff_id=44723&source=Crumbl";
+const CRUMBL_URL = "https://gloffers.org/aff_c?offer_id=2856&aff_id=44723&source=Dior";
 
 const HeroBranding = () => {
   return (
@@ -44,7 +44,7 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/vSyBx18.png" 
+                src="https://i.imgur.com/O8Hj9TV.png" 
                 alt="Louis Vuitton $1000 Gift Card" 
                 className="w-full h-auto"
               />
@@ -62,9 +62,9 @@ const HeroBranding = () => {
         <div className="relative">
             <h1 className="text-[19px] md:text-[27px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
-            <span className="text-[#000000]">Louis Vuitton Rewards</span>
+            <span className="text-[#000000]">Dior Rewards</span>
             <div className="flex items-center -ml-1">
-              <Gift className="w-5 h-5 text-[#000000] fill-transparent" />
+              <Gift className="w-6 h-6 text-[#000000] fill-transparent" />
             </div>
           </h1>
         </div>
@@ -73,7 +73,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#000000]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#000000] font-bold">$1000 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#000000] font-bold">$750 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#f1c40f] shrink-0 animate-sparkle" />
         </div>
